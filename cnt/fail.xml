@@ -1,0 +1,23 @@
+<?xml version="1.0" ?>
+<S:Envelope xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+  <S:Body>
+    <ns2:callTXLifeResponse xmlns:ns2="http://webservices.elink.solcorp.com/">
+      <return>
+        <?xml version="1.0" encoding="UTF-8"?>
+        <TXLife
+          xmlns = "http://ACORD.org/Standards/Life/2"
+          xmlns:xsd = "http://www.w3.org/2001/XMLSchema"
+          xmlns:xsi = "http://www.w3.org/2001/XMLSchema-instance"
+          xsi:schemaLocation = "http://ACORD.org/Standards/Life/2/xsd/TXLife2.9.00.xsd">
+          <UserAuthResponse>
+            <TransResult>
+              <ResultCode tc = "1">Failed</ResultCode>
+            </TransResult>
+            <SvrDate>2017-05-30</SvrDate>
+            <SvrTime>11:28:58+08:00</SvrTime>
+          </UserAuthResponse>
+        </TXLife>
+      </return>
+    </ns2:callTXLifeResponse>
+  </S:Body>
+</S:Envelope>
