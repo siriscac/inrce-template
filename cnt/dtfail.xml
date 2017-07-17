@@ -6,9 +6,18 @@
   xsi:schemaLocation = "http://ACORD.org/Standards/Life/2/xsd/TXLife2.9.00.xsd">
   <UserAuthResponse>
     <TransResult>
-      <ResultCode tc = "1">Failed</ResultCode>
+      <ResultCode tc = "1">Success</ResultCode>
     </TransResult>
     <SvrDate>2017-05-30</SvrDate>
     <SvrTime>11:28:58+08:00</SvrTime>
   </UserAuthResponse>
+  <TXLifeResponse>
+    <TransType tc = "DataUpdate"/>
+    <TransResult>
+      <ResultCode tc = "0"/>
+      <ResultInfo>
+        <ResultInfoDesc>Data update failed</ResultInfoDesc>
+      </ResultInfo>
+    </TransResult>
+  </TXLifeResponse>
 </TXLife>
